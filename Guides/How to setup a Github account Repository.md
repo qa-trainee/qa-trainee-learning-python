@@ -34,7 +34,7 @@ Install the desktop version. it will give you command line git module (gitshell)
 ## Short Video tutorial
 While it gets downloaded see [this](https://www.youtube.com/watch?v=0fKg7e37bQE) video. You can skip the first 5 mins if you know some basics. Also increase the playback speed to 1.25 times to save some time.
 
-## Notes from the video tutorial. 
+### Notes from the video tutorial. 
 (I will suggest you to write your own notes while pausing the video when required, it will help with remembering the commands and their uses)
 
 Create a repository online on github website then use below commands on gitshell
@@ -98,11 +98,15 @@ Once you start to actually work on something with other folks you will need to l
 
 ## Additional resources
 
+https://help.github.com/articles/markdown-basics/
+
 https://try.github.io/levels/1/challenges/1
 
 https://guides.github.com/
 
 http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1
+
+
 
 
 Questions? Ask them [here](www.reddit.com/r/learnprogramming)
