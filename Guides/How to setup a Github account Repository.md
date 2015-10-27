@@ -39,14 +39,14 @@ While it gets downloaded see [this](https://www.youtube.com/watch?v=0fKg7e37bQE)
 
 Create a repository online on github website then use below commands on gitshell
 
-1. git clone <project repository path name> 
+1. git clone \<project repository path name> 
 Which creates a first copy ie copies all code in github repository from github website to your local drive.from where you ran the command
 
 2. git status [enter]
 gives the difference between the code on your local directory and the latest version of code in github code repository
 
-3. git add <file name> [enter] 
-Adds <file name> file from local desktop to local git repo
+3. git add \<file name> [enter] 
+Adds \<file name> file from local desktop to local git repo
 git add -a to add all 
 Check the git status again, it will show one the file to be committed
 
@@ -84,7 +84,7 @@ login using the github desktop
 
 - Open git shell and go at the same path.
 
-- Run git clone <path to the repo> This will give you the files from repo copied to your local directory asking with a hidden .git directory
+- Run git clone \<path to the repo> This will give you the files from repo copied to your local directory asking with a hidden .git directory
 
 - Make some changes in readme.MD file by opening it in notepad and then save the changes. Use the git add, commit, push commands to upload changes to git.
 
