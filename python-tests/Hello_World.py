@@ -50,7 +50,9 @@ def NameAndAge():
 
 
 # HelloWorld()
-# UsersNameAndAge = NameAndAge()
+UsersNameAndAge = NameAndAge()
 # print(UsersNameAndAge.Name)
 # print(UsersNameAndAge.Age)
-sum("spam")
+# sum("spam")
+
+
