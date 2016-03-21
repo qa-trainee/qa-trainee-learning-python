@@ -60,10 +60,14 @@ Final commit from local to github repo on website
 Gets the latest new changes from github.com repo to local directory
 
 ## How to use these commands on daily basis?
-Pull - Everyday whenjust before you start work you pull latest from git
-Status - You make changes through out the day and using status frequently to see the difference between local and git
-Add - To add changes from local desktop to local git repo
+Pull - Run this command everyday just before you start your work so that you pull latest code from git with overnight changes
+
+Status - You make changes in the code through out the day and by using status frequently you can see the difference between local and git
+
+Add - Use Add to add changes from local desktop to local git repo
+
 Commit - To commit all added changes in local git repo
+
 Push - To push and commit all changes from local git repo to github.com repo.
 
 ## Installation and verification
