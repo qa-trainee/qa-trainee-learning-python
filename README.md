@@ -10,4 +10,11 @@ Current guides:
 1. How to setup a Github account Repository.md
 2. How to install python.md
 
+## python-practice
+This directory will contain Python practice programs I create
+
+1. HellowWorld.py
+2. ATBS_S1_L2.py Comments, Variables, Expressions, New Line etc.
+
+
 ~qa-trainee
