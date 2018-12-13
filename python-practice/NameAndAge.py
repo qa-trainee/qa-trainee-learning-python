@@ -54,5 +54,3 @@ UsersNameAndAge = NameAndAge()
 # print(UsersNameAndAge.Name)
 # print(UsersNameAndAge.Age)
 # sum("spam")
-
-
