@@ -1,4 +1,4 @@
-# ATBS_S1_L2.py is a proram that wrote to test my understanding of
+# ATBS_S1_L3.py is a proram that wrote to test my understanding of
 # Automate the boring stuff Section 1, Lecture 3
 
 # Functions introduced or to practice
