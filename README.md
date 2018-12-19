@@ -15,6 +15,6 @@ This directory will contain Python practice programs I create
 
 1. HellowWorld.py
 2. ATBS_S1_L2.py Comments, Variables, Expressions, New Line etc.
-
+3. ATBS_S1_L3.py input(), using + in Print(), str(), int(), float(), len()
 
 ~qa-trainee
