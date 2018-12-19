@@ -16,5 +16,9 @@ This directory will contain Python practice programs I create
 1. HellowWorld.py
 2. ATBS_S1_L2.py Comments, Variables, Expressions, New Line etc.
 3. ATBS_S1_L3.py input(), using + in Print(), str(), int(), float(), len()
+4. ATBS_S1_L4.py boolean operators
+5. ATBS_S1_L5.py if elif else
+6. ATBS_S1_L6.py while, break, continue
+7. ATBS_S1_L7.py for, datetime
 
 ~qa-trainee
