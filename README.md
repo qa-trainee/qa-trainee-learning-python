@@ -20,5 +20,7 @@ This directory will contain Python practice programs I create
 5. ATBS_S1_L5.py if elif else
 6. ATBS_S1_L6.py while, break, continue
 7. ATBS_S1_L7.py for, datetime
+8. ATBS_S1_L8.py functions, random.randint(), sys.exit(), pip, pyperclip
+9. ATBS_S1_L9.py User defined functions. optional parameters, return, none, sep, end in print
 
 ~qa-trainee
