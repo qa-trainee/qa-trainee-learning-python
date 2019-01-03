@@ -3,13 +3,13 @@
 
 # Global and local scopes of variables
 # 1. Code in Global scope can not use local variables
-# 2. Code in local scope can access global variables
+# 2. Code in local scope can access global variable
 #        (if there is no similar named local variable)
 # 3. Code in one func's local scope cannot use variables from other local scope
 # 4. You can use same name for diff variables if they are in diff local scopes
 # How does python decides if a variable used in a function is local or global?
 # If there is assignment statement for variable within function then it's local
-# If there is no assignment then python considers it as global
+# If there is no assignment then python considers it as Global
 # If you want to change value for a global variable within function then
 #    declare it as Global variable using global keyword
 
