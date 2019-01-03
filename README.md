@@ -22,5 +22,10 @@ This directory will contain Python practice programs I create
 7. ATBS_S1_L7.py for, datetime
 8. ATBS_S1_L8.py functions, random.randint(), sys.exit(), pip, pyperclip
 9. ATBS_S1_L9.py User defined functions. optional parameters, return, none, sep, end in print
+10. ATBS_S3_L10.py Global and Local variables
+11. ATBS_S4_L11.py try and except statements, bareback except, multiple except handle
+12. ATBS_S5_L12.py Guess the number game
+13. ATBS_S6_L13.py List data datatype
+
 
 ~qa-trainee
