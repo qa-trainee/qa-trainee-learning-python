@@ -27,6 +27,7 @@ This directory will contain Python practice programs I create
 12. ATBS_S5_L12.py Guess the number game
 13. ATBS_S6_L13.py List data datatype
 14. ATBS_S6_L14.py For Loop with lists, multiple assignments and Augmented operator
+15. ATBS_S6_L15.py Methods, List methods
 
 
 ~qa-trainee
