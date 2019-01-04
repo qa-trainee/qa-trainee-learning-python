@@ -26,6 +26,7 @@ This directory will contain Python practice programs I create
 11. ATBS_S4_L11.py try and except statements, bareback except, multiple except handle
 12. ATBS_S5_L12.py Guess the number game
 13. ATBS_S6_L13.py List data datatype
+14. ATBS_S6_L14.py For Loop with lists, multiple assignments and Augmented operator
 
 
 ~qa-trainee
