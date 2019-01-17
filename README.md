@@ -29,6 +29,7 @@ This directory will contain Python practice programs I create
 14. ATBS_S6_L14.py For Loop with lists, multiple assignments and Augmented operator
 15. ATBS_S6_L15.py Methods, List methods
 16. ATBS_S6_L16.py list, strings and list's immutable property (like pointers in c)
+17. ATBS_S6_L17.py Dictionary data type
 
 
 ~qa-trainee
