@@ -48,7 +48,7 @@ def chooseside():
 
 
 def checkwinner(side):
-    print('This function returns true if there is a winner')
+    # print('This function returns true if there is a winner')
     if (
         # top horizontal
         (board['TL'] == board['TM'] == board['TR'] == side) or
@@ -74,12 +74,12 @@ def checkwinner(side):
 
 
 def checkboardspace(board):
-    print('\nThis function returns true if board has empty space')
+    # print('\nThis function returns true if board has empty space')
     checkboardspace = False
     for i in board.keys():
         # print("checking " + i)
         if board[i] == ' ':
-            print(i + ' is empty\n')
+            print('There are empty Positions on the board eg. ' + i + '\n')
             checkboardspace = True
             break
     if not checkboardspace:
@@ -109,7 +109,7 @@ def getplayerinput(board, playerside):
 
 def getcominput(board, compside):
     print("This is the current board")
-    print("Comp turn for " + compside)
+    print("Player 2 turn for " + compside)
     printboard(board)
     playerinputposition = ''
     while playerinputposition == '':
