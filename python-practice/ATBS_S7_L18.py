@@ -12,12 +12,14 @@ board = {'TL': ' ', 'TM': ' ', 'TR': ' ',
 # function to print tic tac toe board
 
 def printboardpositions():
-    print("\nYou can use below reference\n")
+    print("You can use below reference\n")
     print('TL' + ' | ' + 'TM' + ' | ' + 'TR')
     print("------------")
     print('ML' + ' | ' + 'MM' + ' | ' + 'MR')
     print("------------")
     print('BL' + ' | ' + 'BM' + ' | ' + 'BR')
+    print("====================")
+    print("====================")
     print('\n')
 
 
@@ -41,6 +43,7 @@ def chooseside():
         elif playerinput == 'O':
             playerside = 'O'
     print("You chose " + playerside)
+    print("----------")
     return playerside
 
 
@@ -63,26 +66,31 @@ def checkwinner(side):
         (board['TL'] == board['MM'] == board['BR'] == side) or
         # right top left bottom
         (board['BL'] == board['MM'] == board['TR'] == side)):
-        print(side + ' is a winner')
+        print(side + ' is a winner\n')
         return True
     else:
+        print('We dont have a winner\n')
         return False
 
 
 def checkboardspace(board):
-    print('This function returns true if board has space')
+    print('\nThis function returns true if board has empty space')
     checkboardspace = False
     for i in board.keys():
-        print("checking " + i)
+        # print("checking " + i)
         if board[i] == ' ':
-            print(i + 'is empty')
+            print(i + ' is empty\n')
             checkboardspace = True
             break
+    if not checkboardspace:
+        print('There is no space left, game over')
     return checkboardspace
 
 
 def getplayerinput(board, playerside):
+    print("----------")
     print("This is the current board")
+    print("Player 1 turn for " + playerside)
     printboard(board)
     playerinputposition = ''
     while playerinputposition == '':
@@ -101,6 +109,7 @@ def getplayerinput(board, playerside):
 
 def getcominput(board, compside):
     print("This is the current board")
+    print("Comp turn for " + compside)
     printboard(board)
     playerinputposition = ''
     while playerinputposition == '':
@@ -108,12 +117,12 @@ def getcominput(board, compside):
         printboardpositions()
         playerinput = input().upper()
         if playerinput in board:
-            if board[playerinput] in ('X', 'Y'):
+            if board[playerinput] in ('X', 'O'):
                 print('This position already has data')
                 printboard(board)
             elif board[playerinput] == ' ':
                 playerinputposition = playerinput
-                board[playerinputposition] = playerside
+                board[playerinputposition] = compside
     return board
 
 
@@ -126,11 +135,13 @@ else:
     compside = 'X'
     nextturn = 'comp'
 
-while checkboardspace(board):
+winner = False
+while not winner and checkboardspace(board):
     if nextturn == 'player':
         printboard(getplayerinput(board, playerside))
         if checkwinner(playerside):
             print(nextturn + ' Has wan')
+            winner = True
             break
         else:
             nextturn = 'comp'
@@ -138,29 +149,7 @@ while checkboardspace(board):
         printboard(getcominput(board, compside))
         if checkwinner(compside):
             print(nextturn + ' Has wan')
+            winner = True
             break
         else:
             nextturn = 'player'
-
-printboardpositions()
-
-board['TL'] = 'X'
-board['TM'] = 'O'
-board['TR'] = 'O'
-
-printboard(board)
-printboard(board)
-checkboardspace(board)
-
-
-# i = 0
-# while i < 1:
-#     if checkboardspace(board):
-#
-#
-#     else
-#         no empty spaces left, better luck next time
-
-
-if checkwinner("O"):
-    print("game finished")
