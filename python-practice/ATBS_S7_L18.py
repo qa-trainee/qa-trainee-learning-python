@@ -9,8 +9,7 @@ board = {'TL': ' ', 'TM': ' ', 'TR': ' ',
          'BL': ' ', 'BM': ' ', 'BR': ' '}
 
 
-# function to print tic tac toe board
-
+# function to print tic tac toe board position reference
 def printboardpositions():
     print("You can use below reference\n")
     print('TL' + ' | ' + 'TM' + ' | ' + 'TR')
@@ -24,6 +23,7 @@ def printboardpositions():
 
 
 def printboard(board):
+    # print('This function prints board')
     print(board['TL'] + ' | ' + board['TM'] + ' | ' + board['TR'])
     print("----------")
     print(board['ML'] + ' | ' + board['MM'] + ' | ' + board['MR'])
@@ -34,6 +34,7 @@ def printboard(board):
 
 # function to chose a side X or O
 def chooseside():
+    # print('This function asks user to choose X or O
     playerside = ""
     while playerside == "":
         print("Choose your mark by entering X or O")
@@ -88,6 +89,7 @@ def checkboardspace(board):
 
 
 def getplayerinput(board, playerside):
+    # print(This function asks user to select a position, checks if its empty)
     print("----------")
     print("This is the current board")
     print("Player 1 turn for " + playerside)
@@ -108,6 +110,7 @@ def getplayerinput(board, playerside):
 
 
 def getcominput(board, compside):
+    # print(This function is same as getplayerinput, can be modified in future)
     print("This is the current board")
     print("Player 2 turn for " + compside)
     printboard(board)
@@ -125,8 +128,10 @@ def getcominput(board, compside):
                 board[playerinputposition] = compside
     return board
 
-
+# Main program
 print("Lets play a game of tic tac toe")
+
+# Assigns default value for positions chosen by player or comp
 playerside = chooseside()
 if playerside == 'X':
     compside = 'O'
@@ -136,6 +141,8 @@ else:
     nextturn = 'comp'
 
 winner = False
+
+# This loop will run till we have a winner or we run out of space on board
 while not winner and checkboardspace(board):
     if nextturn == 'player':
         printboard(getplayerinput(board, playerside))
