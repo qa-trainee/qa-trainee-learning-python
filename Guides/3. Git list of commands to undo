@@ -1,0 +1,30 @@
+3. Git list of commands to undo
+Source: https://www.reddit.com/r/ProgrammerHumor/comments/eozqs3/git_reset_hard/fegslp9
+
+ • git checkout <file> # Revert the changes
+
+ • git checkout HEAD -- <file> # Revert the changes to a commited file
+
+ • git commit --amend -m # Change message of last commit
+
+ • git commit --amend # Change missed out staged files
+
+ • git cherry-pick <commit-id> # Execute from branch where you want commit to come.
+
+ • git reset --soft <commit-id> # Commit id where you want to reset to. Will leave the changes files in staging area
+
+ • git reset <commit-id> # Commit id where you want to reset to. Will move files to working directory
+
+ • git reset --hard <commit-id> # Commit id where you want to reset to. Will remove tracked files from working directory but leave untracked file alone
+
+ • git reflog # Shows all activity <---- IMP
+
+ • git checkout <commit-id> # Undoing reset. Select commit id just before reset. Will be in detached HEAD state
+
+ • git branch backup # Detached HEAD state files will go in backup branch. Checkout master after this.
+
+ • git clean -df # Removes untracked (d)irectories recursively with (f)orce
+
+ • git reset HEAD <file> # Unstage file, but keep changes
+
+ • git revert <commit-id> # Commit id of the commit that you want to be reverted. Will create new commit! Use this if you think other people have checked out this file too!
